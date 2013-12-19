@@ -14,6 +14,18 @@ HW
 SW
  1. wiringPi, Library for Raspberry Pi GPIO Control
 
+Installation wiringPi Source
+$ git clone git://git.drogon.net/wiringPi
+$ cd wiringPi
+$ ./build
+
+Test wiringPi
+$ gpio -v
+
+DCMotorKeyControl Clone
+$ git clone https://github.com/rasplay/DCMotorKeyControl.git
+$ cd DCMotorKeyControl
+
 compile ex.
 $ gcc -o rc_key rc_key.c -lwiringPi
 

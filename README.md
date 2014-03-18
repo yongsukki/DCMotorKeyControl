@@ -36,9 +36,13 @@ $ git clone https://github.com/rasplay/DCMotorKeyControl.git
 
 $ cd DCMotorKeyControl
 
-compile ex.
+compile examples.
 
 $ gcc -o rc_key rc_key_1.c -lwiringPi
+
+rc_key_1.c use two motors, one is front-rear motor, the other is left-right motor.
+
+rc_key_2.c use two motors, one is left motor, the other is right motor.
 
 and, run
 

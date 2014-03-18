@@ -8,7 +8,6 @@ Project by www.rasplay.org - Multi-Control-RCCar
 This is C Source Code for RC Car with Raspberry-pi.
 
 Dependency
-=======
 
 HW
 

@@ -27,7 +27,7 @@ $ git clone https://github.com/rasplay/DCMotorKeyControl.git
 $ cd DCMotorKeyControl
 
 compile ex.
-$ gcc -o rc_key rc_key.c -lwiringPi
+$ gcc -o rc_key rc_key_1.c -lwiringPi
 
 and, run
 $ sudo ./rc_key

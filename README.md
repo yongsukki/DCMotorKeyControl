@@ -7,14 +7,15 @@ Project by www.rasplay.org - Multi-Control-RCCar
 
 This is C Source Code for RC Car with Raspberry-pi.
 
-====== Dependency ======
+Dependency
+=========
 
-HW ===
+HW
 
  1. RC Car with DC Motor
  2. Raspberry-pi, it is ultra-low-cost ($35) credit-card sized computer, can run Linux.
 
-SW ===
+SW
 
  1. wiringPi, Library for Raspberry Pi GPIO Control
 

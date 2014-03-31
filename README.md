@@ -20,36 +20,45 @@ SW
 
 Installation wiringPi Source
 
-$ git clone git://git.drogon.net/wiringPi
-
-$ cd wiringPi
-
-$ ./build
+  ```
+  $ git clone git://git.drogon.net/wiringPi
+  $ cd wiringPi
+  $ ./build
+  ```
 
 Test wiringPi
 
-$ gpio -v
+  ```
+  $ gpio -v
+  ```
 
 DCMotorKeyControl Clone
 
-$ git clone https://github.com/rasplay/DCMotorKeyControl.git
-
-$ cd DCMotorKeyControl
+  ```
+  $ git clone https://github.com/rasplay/DCMotorKeyControl.git
+  $ cd DCMotorKeyControl
+  ```
 
 choose one source code and compile/run.
 
-rc_key_1.c use two motors, one is front-rear motor, the other is left-right motor.
+  * rc_key_1.c use two motors, one is front-rear motor, the other is left-right motor.
 
-$ gcc -o rc_key rc_key_1.c -lwiringPi
-$ sudo ./rc_key
+  ```
+  $ gcc -o rc_key rc_key_1.c -lwiringPi
+  $ sudo ./rc_key
+  ```
 
-rc_key_2.c use two motors, one is left motor, the other is right motor.
+  * rc_key_2.c use two motors, one is left motor, the other is right motor.
 
-$ gcc -o rc_key rc_key_2.c -lwiringPi
-$ sudo ./rc_key
+  ```
+  $ gcc -o rc_key rc_key_2.c -lwiringPi
+  $ sudo ./rc_key
+  ```
 
-rc_key_2.py use two motors, one is left motor, the other is right motor.
+  * rc_key_2.py use two motors, one is left motor, the other is right motor.
 
-$ sudo python rc_key_2.py
+  ```
+  $ sudo python rc_key_2.py
+  ```
 
 Enjoy!!  
